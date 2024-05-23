@@ -12,7 +12,7 @@
 
 ActiveRecord::Schema[7.0].define(version: 2024_05_23_084728) do
   create_table "messages", charset: "utf8", force: :cascade do |t|
-    t.string "contens"
+    t.string "content"
     t.bigint "user_id", null: false
     t.bigint "room_id", null: false
     t.datetime "created_at", null: false
